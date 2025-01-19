@@ -1,23 +1,17 @@
-Backend
-Installation Steps
+<!--
+This section provides the installation steps for setting up the backend of the chat application.
 
 Step 1: Clone Repository
-
-git clone <repository-url>
-cd <repository-folder>/backend
+- Clone the repository using the provided URL.
+- Navigate to the backend directory.
 
 Step 2: Install Dependencies
-npm install
+- Run `npm install` to install all necessary dependencies.
 
-Step 3: Set Up Env Variables
-
-Create a .env file in the backend directory.
-Add the following environment variables:
-DATABASE_USERNAME=<your-database-username>
-DATABASE_PASSWORD=<your-database-password>
-DATABASE_HOST=<your-database-host>
-DATABASE_NAME=<your-database-name>
-JWT_SECRET=<your-jwt-secret>
+Step 3: Set Up Environment Variables
+- Create a `.env` file in the backend directory.
+- Add the required environment variables: `DATABASE_USERNAME`, `DATABASE_PASSWORD`, `DATABASE_HOST`, `DATABASE_NAME`, `JWT_SECRET`.
 
 Step 4: Run the Application
-npm run start:dev
+- Use `npm run start:dev` to start the application in development mode.
+-->
