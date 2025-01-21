@@ -9,4 +9,4 @@ export class Conversation extends Document {
   @Prop({ type: Types.ObjectId, ref: 'Message', required: true, default: [] })
   messages: [Types.ObjectId];
 }
-export const MessageSchema = SchemaFactory.createForClass(Conversation);
+export const ConversationSchema = SchemaFactory.createForClass(Conversation);
