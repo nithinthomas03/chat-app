@@ -3,9 +3,6 @@ import { Types, Document } from 'mongoose';
 
 @Schema({ timestamps: true })
 export class Message extends Document {
-  @Prop({ required: true })
-  messageId: string;
-
   @Prop({ type: Types.ObjectId, ref: 'User', required: true })
   senderId: Types.ObjectId;
 

@@ -18,7 +18,7 @@ export class MessageController {
     // }
   }
 
-  @Post()
+  @Post('send')
   async sendMessage(@Body() messageDto: MessageDto, @GetUser() user: AccessTokenPayloadDto) {
     return this.messageService.sendMessage(messageDto);
   }
